@@ -9,5 +9,15 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils'
-  ]
+  ],
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
+      gitInfo: {
+        name: 'nuxt3-styled-tailwind-nuxt-studio',
+        owner: 'rafaelmils',
+        url: 'https://github.com/rafaelmils/nuxt3-styled-tailwind-nuxt-studio'
+      }
+    }
+  }
 })
